@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>AngularJS data binding Tutorial</title>
+	<link rel="stylesheet" href="bootstrap.min.css"/>
+</head>
+<body ng-app>
+
+	<h1>{{ 12 * 12 }}</h1>
+
+	<input type="text" ng-model="data.demo"/>
+	<h1>{{data.demo}}</h1>
+
+	<div class="{{data.demo}}">
+		Wrap me up in the bootstrap
+	</div>
+
+<script src="angular.min.js"></script>
+</body>
+</html>

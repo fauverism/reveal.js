@@ -1,0 +1,11 @@
+.colImage {
+	display: block;
+	float: left;
+}
+.colText {
+	display: block;
+	float: left;
+	/*vertical-align: middle;*/
+	margin: auto;
+	width: 450px;
+}
