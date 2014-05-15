@@ -5,17 +5,17 @@
 	<title>AngularJS data binding Tutorial</title>
 	<link rel="stylesheet" href="bootstrap.min.css"/>
 </head>
-<body ng-app>
-
-	<h1>{{ 12 * 12 }}</h1>
+	<body ng-app>
+	<h1>{{ 3 * 10 }}</h1>
 
 	<input type="text" ng-model="data.demo"/>
+
 	<h1>{{data.demo}}</h1>
-
+	
 	<div class="{{data.demo}}">
-		Wrap me up in the bootstrap
+		This is an example of bootstrap being wired to control the class
 	</div>
-
-<script src="angular.min.js"></script>
-</body>
+	
+	<script src="angular.min.js"></script>
+	</body>
 </html>
